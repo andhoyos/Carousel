@@ -108,6 +108,10 @@ body {
   border-radius: 15px;
 }
 
+.items .item a {
+  pointer-events: none;
+}
+
 #item-2:checked ~ .items #selector-5,
 #item-1:checked ~ .items #selector-4,
 #item-3:checked ~ .items #selector-1,
@@ -155,6 +159,14 @@ body {
   transform: translateX(0) scale(1);
   z-index: 1;
 }
+
+/* #item-1:checked ~ .items #selector-1 a,
+#item-2:checked ~ .items #selector-2 a,
+#item-3:checked ~ .items #selector-3 a,
+#item-4:checked ~ .items #selector-4 a,
+#item-5:checked ~ .items #selector-5 a {
+  pointer-events: all;
+} */
 
 @media screen and (max-width: 960px) {
   #item-2:checked ~ .items #selector-1,
