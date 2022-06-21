@@ -120,6 +120,7 @@ body {
   transform: translateX(-80%) scale(0.65);
   opacity: 0.1;
   z-index: -1;
+  pointer-events: none;
 }
 #item-5:checked ~ .items #selector-2,
 #item-1:checked ~ .items #selector-3,
@@ -129,6 +130,7 @@ body {
   transform: translateX(80%) scale(0.65);
   opacity: 0.1;
   z-index: -1;
+  pointer-events: none;
 }
 
 #item-2:checked ~ .items #selector-1,
